@@ -1,0 +1,343 @@
+* {
+    margin: 0px 0px 0px 0px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+header .header-top .menu-top>a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: 5px 10px 0px 15px;
+    width: 70%;
+    background-color: rgb(157, 21, 190);
+
+}
+
+header .header-top .menu-top>a:hover {
+    color: #CCC;
+}
+
+header .header-top {
+    background-color: rgb(157, 21, 190);
+    border-bottom: 2px solid #f2f2f2;
+    height: 25px;
+    text-align: right;
+    position: relative;
+    color: white;
+    line-height: 1.6;
+}
+
+
+header .header-top .menu-top {
+    position: absolute;
+    margin-left: 626px;
+    background-color: rgb(157, 21, 190);
+}
+
+.container {
+    max-width: 1000px;
+    background-color: rgb(157, 21, 190);
+    height: 1152px;
+}
+
+.container .banner img {
+    vertical-align: middle;
+}
+
+
+nav .menu ul>li>ul>li>a {
+    display: block;
+}
+
+
+nav .menu ul>li>a>strong {
+    background-color: rgb(157, 21, 190);
+    color: white;
+
+}
+
+nav .menu ul>li>a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 8px 0px 5px;
+    background-color: rgb(157, 21, 190);
+    color: white;
+
+
+}
+
+nav .menu ul>li>a:hover {
+    color: red;
+}
+
+nav .menu ul li {
+    display: inline;
+    background-color: rgb(157, 21, 190);
+
+}
+
+nav .menu ul {
+    display: block;
+    text-align: center;
+    background-color: rgb(157, 21, 190);
+}
+
+nav .menu {
+    background-color: rgb(157, 21, 190);
+    line-height: 40px;
+    text-align: center;
+}
+
+
+
+.container marquee {
+    color: red;
+    background: aliceblue;
+    line-height: 30px;
+    margin-bottom: -4px;
+}
+
+table tr th a i {
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: 5px;
+
+}
+
+table tr td a {
+    text-decoration: none;
+    color: rgb(48, 153, 223);
+    padding-left: 7px;
+    padding-bottom: 5px;
+
+}
+
+table tr td label {
+    color: rgba(0, 0, 0, 0.151);
+    font-size: 12px;
+
+}
+
+table tr th {
+    background: rgb(157, 21, 190);
+    color: white;
+
+}
+
+table {
+    line-height: 1.6;
+    justify-content: center;
+    font-size: 15px;
+    text-align: justify;
+    background: rgb(235, 240, 240);
+    border: double rgb(157, 21, 190);
+    letter-spacing: 0.6px;
+    box-shadow: 2px 3px 4px palevioletred;
+
+}
+
+article {
+    width: 77%;
+    float: left;
+    background-color: white;
+    align-items: center;
+}
+
+article .content-right {
+    float: left;
+    width: 27%;
+}
+
+
+article .vmenu {
+    font-size: 14px;
+    border: double rgb(157, 21, 190);
+    box-shadow: 2px 3px 3px purple;
+
+}
+
+
+
+article .content-right .vmenu ul {
+    text-align: left;
+    margin: 3px 3px 3px 3px;
+    padding-left: 2px;
+}
+
+
+article .content-right .vmenu ul li {
+    line-height: 2.4;
+    list-style: none;
+
+}
+
+}
+
+article .content-right .vmenu ul li hr {
+    list-style: none;
+}
+
+
+article .content-right .vmenu ul li a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: blue;
+
+}
+
+article .content-right .vmenu ul li a:hover {
+    color: red;
+    background-image: url(./hover.jpg );
+}
+
+input {
+    border-radius: 2px;
+}
+
+article table {
+    float: left;
+    width: 27%;
+
+    margin: 15px 3px 3px 3px;
+}
+
+article .content-center .banner2 {}
+
+
+article .lk {
+    margin-right: 3px;
+    margin-top: 30px;
+
+}
+
+article .content-center h3 {
+    background: rgb(157, 21, 190);
+    margin: 0px 5px 5px 210px;
+    color: white;
+    padding: 3px 0px 3px 0px;
+    box-shadow: 2px 3px 3px purple;
+    border-radius: 1px;
+}
+
+article .content-center .video iframe {
+    width: 70%;
+    box-shadow: gray 2px 2px;
+    margin-top: 7px;
+}
+
+article .content-center .banner-body img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 3px purple;
+
+}
+
+article .content-center .picture img {
+    margin-top: 7px;
+    border-radius: 2px;
+}
+
+aside {
+
+    width: 23%;
+    float: right;
+    background: white;
+}
+
+aside .table3 {
+    width: 100%;
+    /* margin-top: 20px; */
+}
+
+aside .table3 tr td i {
+    padding-left: 5px;
+}
+
+
+footer {
+    color: white;
+    float: right;
+    height: 200px;
+    width: 100%;
+    background: rgb(157, 21, 190);
+    margin-top: 20px;
+    padding-top: 10px;
+
+    text-align: left;
+}
+
+
+footer .content-left {
+
+    float: left;
+    line-height: 1.8;
+    width: 55%;
+}
+
+footer .content-right {
+    float: right;
+
+    line-height: 1.8;
+    width: 45%;
+}
+
+footer .content-center {
+    background: purple;
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin-top: 17px;
+
+    line-height: 30px;
+}
+
+footer .content-center a {
+    margin-left: 1px;
+    text-decoration: none;
+    color: rgb(231, 147, 20);
+}
+
+footer .content-right a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Tranggioithieu */
+.gioithieu {
+    justify-content: center;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.gioithieu p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Tranglienhe */
+.title-lienhe {
+    margin-top: 10px;
+    color: white;
+}
+
+.lienhe-form {
+    background: rgb(119, 119, 226);
+    width: 560px;
+}
+
+.lienhe {
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 3px;
+
+}
+
+.lienhe input {
+    border-radius: 2px;
+    padding-top: 5px;
+
+}
